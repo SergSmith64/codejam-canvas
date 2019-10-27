@@ -11,6 +11,10 @@ body {
   background-color: darkgrey;
 }
 
+button:hover {
+  opacity: 0.5;
+}
+
 .wrapper {
   margin: 0 auto;
   width: 1200px;
@@ -79,8 +83,6 @@ header img {
 .main-canvas {
   margin-bottom: 20px;
   background-color: #6d6d6d;
-  padding: 55px;
-  background-color: #f7c865;
 }
 
 .main-left-panel__tools button,
@@ -122,10 +124,54 @@ header img {
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 
+#current p,
+#previous p,
+#red p,
+#blue p {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 30px;
+  border-radius: 50%;
+  background: #C4C4C4;
+  border: 1px solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#previous p {
+  background: #41F795;
+}
+
+#red p {
+  background: #F74141;
+}
+
+#blue p {
+  background: #41B6F7;
+}
+
+.main-right-panel {
+  width: 15%;
+  height: 210px;
+}
+
+.main-right-panel button {
+  height: 70px;
+}
+
+.main-right-panel button p {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
 .footer {
   padding: 12px;
   padding-left: 30px;
   padding-right: 30px;
-  background-color: #e5fdb7;
+  background-color: #E5FCF0;
 }
 /*# sourceMappingURL=style.css.map */
