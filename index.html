@@ -16,16 +16,45 @@
     </header>
     
     <main class="main-container">
-        main-main-main-main
 
       <div class="main-left-panel">
-          <div class="main-left-panel__tools">tools-tools-tools</div>
-          <div class="main-left-panel__colors">colors-colors-colors-colors-</div>
+          <div class="main-left-panel__tools">
+            <button id="paint-bucket"><img src="./assets/paint-bucket.svg" alt="paint-bucket">Paint bucket</button>
+            <button id="eyedropper"><img src="./assets/eyedropper.svg" alt="eye-dropper">Eyedropper</button>
+            <button id="move"><img src="./assets/movie.svg" alt="movie">Move</button>
+            <button id="transform"><img src="./assets/transform.svg" alt="transform">Transform</button>
+          </div>
+          <div class="main-left-panel__colors">
+            <button id="current">
+              <p></p>Current color
+          </button>
+          <button id="previous">
+              <p></p>Prev color
+          </button>
+          <button id="red">
+              <p></p>red
+          </button>
+          <button id="blue">
+              <p></p>blue
+          </button>
+          </div>
       </div>
+
       <div class="main-canvas">
-          <canvas id="pixel" width="520" height="520"></canvas>
+          <canvas id="pixel" width="512" height="512"></canvas>
       </div>
-      <div class="main-right-panel">right panel--right panel--right panel--right panel</div>
+
+      <div class="main-right-panel">
+        <button id="four">
+          <p></p>4x4
+        </button>
+        <button id="thirty-two">
+          <p></p>32x32
+        </button>
+        <button id="five-hundred-twelve">
+          <p></p>512x512
+        </button>
+      </div>
 
     </main>
 
