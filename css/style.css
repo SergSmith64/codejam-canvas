@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1400px;
+  background-color: #f8caca;
+}
+
+header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #baf4f8;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-left-panel {
+  padding: 5px;
+}
+
+.main-left-panel__tools {
+  padding: 5px;
+}
+
+.main-left-panel__colors {
+  padding: 5px;
+}
+
+.main-canvas {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #6d6d6d;
+}
+
+.main-right-panel {
+  padding: 5px;
+}
+
+.footer {
+  padding: 12px;
+  background-color: #e5fdb7;
+}
+/*# sourceMappingURL=style.css.map */
