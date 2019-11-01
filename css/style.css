@@ -12,7 +12,7 @@ body {
 }
 
 button:hover {
-  opacity: 0.5;
+  opacity: 0.75;
 }
 
 .wrapper {
@@ -42,7 +42,7 @@ header {
 }
 
 header h1 {
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 header img {
@@ -80,11 +80,6 @@ header img {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
 }
 
-.main-canvas {
-  margin-bottom: 20px;
-  background-color: #6d6d6d;
-}
-
 .main-left-panel__tools button,
 .main-left-panel__colors button,
 .main-right-panel button {
@@ -106,17 +101,14 @@ header img {
 }
 
 #paint-bucket,
-#transform,
-#current,
-#blue {
-  height: 65px;
-}
-
 #eyedropper,
 #move,
+#transform,
+#current,
 #previous,
+#blue,
 #red {
-  height: 58px;
+  height: 65px;
 }
 
 #eyedropper,
@@ -135,20 +127,25 @@ header img {
   border-radius: 50%;
   background: #C4C4C4;
   border: 1px solid #000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 #previous p {
-  background: #41F795;
+  background: lightgreen;
 }
 
 #red p {
-  background: #F74141;
+  background: red;
 }
 
 #blue p {
-  background: #41B6F7;
+  background: cyan;
+}
+
+.main-canvas {
+  background-color: #6d6d6d;
+  border: 1px solid #000;
+  width: 514px;
+  height: 514px;
 }
 
 .main-right-panel {
